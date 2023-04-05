@@ -34,3 +34,6 @@ Creational
 10. Strategy
 11. Template
 12. Visitor
+
+### Behavioral Design Pattern :
+ Are concerned with the inner algorithms, process flow, the assignment of responsibilities and the intercommunication between objects.
