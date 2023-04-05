@@ -34,3 +34,6 @@ Creational
 10. Strategy
 11. Template
 12. Visitor
+
+### Structural Design Pattern :
+ Focuses more on how classes and objects are composed using the different structural techniques, and to form structures with more or altered flexibility
