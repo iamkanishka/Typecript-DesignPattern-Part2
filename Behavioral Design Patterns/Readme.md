@@ -1,39 +1,19 @@
-A Design Pattern is a description or template that can be repeatedly applied to a commonly recurring problem in software design.
+### Command Design Pattern
 
-You will find a familiarity with Design Patterns very useful when planning, discussing, developing, managing and documenting your applications from now on and into the future.
+The Command pattern is a behavioral design pattern, in which an abstraction exists between an object that invokes a command, and the object that performs it.
 
-You will learn these Design Patterns
+E.g., a button will call the Invoker, that will call a pre-registered Command, that the Receiver will perform.
 
-Creational
-1. Factory
-2. Abstract Factory
-3. Builder
-4. Prototype
-5. Singleton
+A Concrete Class will delegate a request to a command object, instead of implementing the request directly.
 
-2. Structural
+The command pattern is a good solution for implementing UNDO/REDO functionality into your application.
 
-1. Decorator
-2. Adapter
-3. Facade
-4. Bridge
-5. Composite
-6. Flyweight
-7. Proxy
+Uses:
 
-3. Behavioral
-
-1. Command
-2. Chain of Responsibility
-3. Observer Pattern
-5. Interpreter
-6. Iterator
-7. Mediator
-8. Memento
-9. State
-10. Strategy
-11. Template
-12. Visitor
-
-### Behavioral Design Pattern :
- Are concerned with the inner algorithms, process flow, the assignment of responsibilities and the intercommunication between objects.
+GUI Buttons, menus
+Macro recording
+Multi-level undo/redo
+Networking - send whole command objects across a network, even as a batch
+Parallel processing or thread pools
+Transactional behavior
+Wizards
