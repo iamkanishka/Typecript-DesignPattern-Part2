@@ -1,6 +1,6 @@
-### Iterator Design Pattern
-The Iterator will commonly contain two methods that perform the following concepts.
+### Mediator Design Pattern
+Objects communicate through the Mediator rather than directly with each other.
 
-next: returns the next object in the aggregate (collection, object).
-hasNext: returns a Boolean indicating if the Iterable is at the end of the iteration or not.
-The benefits of using the Iterator pattern are that the client can traverse a collection of aggregates(objects) without needing to understand their internal representations and/or data structures.
+As a system evolves and becomes larger and supports more complex functionality and business rules, the problem of communicating between these components becomes more complicated to understand and manage. It may be beneficial to refactor your system to centralize some or all of its functionality via some kind of mediation process.
+
+The mediator pattern is similar to implementing the Facade pattern between your objects and processes. Except that the structure of the Mediator could also allow multi-directional communication between each component and provide the opportunity to add some logic to the messaging flow to make it more cooperative in some way. E.g., managing the routing behavior by serializing or batching messages, the centralization of application logic, caching, logging, etc
