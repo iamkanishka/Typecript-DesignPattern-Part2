@@ -1,5 +1,4 @@
 ### Factory Design Pattern
-
 When developing code, you may instantiate objects directly in methods or in classes. While this is quite normal, you may want to add an extra abstraction between the creation of the object and where it is used in your project.
 
 You can use the Factory pattern to add that extra abstraction. The Factory pattern is one of the easiest patterns to understand and implement.
